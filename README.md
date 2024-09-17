@@ -4,7 +4,7 @@
 # Group Members: Varen Maniktala, Hersh Chawla, Javad Baghirov, James Frech, Mahammad Afandiyev
 
 # Cleaning/Preprocessing Steps:
-# - Removing duplicates, filling in missing fields
+# - Removing duplicates, filling in missing fields (over / under sampling)
 # - Merging datasets into a complete cohesive dataset
 # - Renaming columns for readability
 # - Removing outliers

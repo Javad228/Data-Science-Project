@@ -72,6 +72,8 @@ data['weekend'] = pd.to_datetime(data['Date']).dt.weekday
 # Monday = 0, ..., Saturday = 5, Sunday = 6.
 data['weekend'] = data['weekend'] > 4
 
+data.to_csv('data/clean/fitbit_clean.csv',index=False)
+
 # Split the dataset into training and testing sets.
 X_train, X_test, y_train, y_test = train_test_split(data.drop('HoursAsleep',axis=1),
                                                     data['HoursAsleep'],
